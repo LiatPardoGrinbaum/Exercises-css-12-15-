@@ -88,21 +88,16 @@
   font-style: black;
 }
 
-/* .logo {
-  flex: 1;
+@media (max-width: 500px) {
+  .navbar ul {
+    flex-wrap: wrap;
+  }
+  .navbar-links {
+    width: 100%;
+    text-align: center;
+  }
 }
 
-.link {
-  text-align: center;
-  padding: 5px 10px;
-  background-color: rgb(30, 142, 233);
-  border: 2px solid rgb(30, 142, 233);
-  color: white;
-  font-size: 14px;
-  border-radius: 20px;
-  transition: 0.5s;
-  cursor: pointer;
-} */
 
 .btn:hover {
   background-color: rgb(55, 195, 219);
