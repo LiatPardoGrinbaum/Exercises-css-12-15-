@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  border: 1px solid black;
+  max-width: 100%;
+  margin: auto;
+  background-color: rgb(188, 238, 250);
+  position: relative;
+  padding: 10px;
+}
+
+.background_image {
+  background-image: url(./images/backgroundPic.jpg);
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  background-attachment: fixed;
+}
+
+.box {
+  margin: auto;
+  background-color: rgb(188, 238, 250);
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.5px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(10, 172, 172);
+  border-style: solid;
+  padding: 10px;
+}
+
+#header {
+  text-align: center;
+  /* box-shadow: 5px 5px 20px 10px rgb(141, 132, 132); */
+  /* opacity: 0.5; */
+}
+.navbar {
+  margin: auto;
+}
+.navbar ul {
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  background-color: rgb(206, 245, 255);
+  border: 2px solid rgb(10, 172, 172);
+  padding: 10px;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar li {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 0px;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.link a:hover {
+  color: rgb(111, 131, 175);
+}
+
+.link:hover {
+  background: rgb(45, 46, 49);
+}
+
+.logo {
+  flex: 1;
+  font-size: 1.75rem;
+  user-select: none;
+  font-weight: bolder;
+  font-family: "Belleza", sans-serif;
+  text-align: left;
+}
+
+.link {
+  font-style: black;
+}
+
+/* .logo {
+  flex: 1;
+}
+
+.link {
+  text-align: center;
+  padding: 5px 10px;
+  background-color: rgb(30, 142, 233);
+  border: 2px solid rgb(30, 142, 233);
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+} */
+
+.btn:hover {
+  background-color: rgb(55, 195, 219);
+}
+
+#main {
+  font-weight: bold;
+  text-align: center;
+  float: right;
+  width: 68%;
+  margin-bottom: 5px;
+}
+
+#main p {
+  text-align: left;
+}
+
+#aside {
+  text-align: center;
+  float: left;
+  width: 30%;
+  /* height: ;    ? how can i make it like the main height ? */
+}
+
+.aside li {
+  font-size: 18px;
+  text-align: left;
+}
+
+.ul-style {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.li-style {
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.enhance {
+  margin: auto;
+  background-color: rgb(161, 219, 209);
+  color: black;
+  font-weight: bold;
+}
+
+#footer {
+  text-align: center;
+  color: rgb(14, 12, 99);
+}
+
+.myimage {
+  height: 300px;
+  width: 400px;
+  border: 1px solid rgb(18, 66, 75);
+}
