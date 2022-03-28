@@ -88,16 +88,19 @@
   font-style: black;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .navbar ul {
     flex-wrap: wrap;
+    flex-direction: column;
   }
   .navbar-links {
     width: 100%;
     text-align: center;
   }
-}
-
+  .logo {
+    flex: 0;
+    text-align: center;
+  }
 
 .btn:hover {
   background-color: rgb(55, 195, 219);
